@@ -36,3 +36,7 @@ sudo apt-get install -y erlang-base \
 sudo apt-get install rabbitmq-server -y --fix-missing
 sudo rabbitmq-plugins enable rabbitmq_management
 sudo ufw allow proto tcp from any to any port 5672,15672
+
+
+#sudo rabbitmqctl add_user admin StrongPassword # добавление пользователя
+#sudo rabbitmqctl set_user_tags admin administrator # настройка прав
